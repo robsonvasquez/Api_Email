@@ -39,5 +39,5 @@ app.post("/send-email", (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log("api executando");
+    //console.log("api executando");
 });

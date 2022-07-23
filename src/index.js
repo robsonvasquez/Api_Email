@@ -38,4 +38,4 @@ app.post("/send-email", (req, res) => {
     res.send()
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

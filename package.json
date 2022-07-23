@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
-    "production": "pm2  start index.js --name api-email"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "production": "pm2  start src/index.js --name api-email"
   },
   "keywords": [],
   "author": "",

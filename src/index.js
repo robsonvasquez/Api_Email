@@ -18,7 +18,7 @@ const config_email = nodemailer.createTransport({
 
 app.use(body_parser.json());
 
-app.use(cors());
+app.use(cors({origin: process.env.REQUIRE_URL}));
 
 app.post("/send-email", (req, res) => {
 
@@ -33,9 +33,9 @@ app.post("/send-email", (req, res) => {
                 <h4>Mensagem: ${req.body.mensagem}</h4>`
     };
 
-    //config_email.sendMail(message);
+    config_email.sendMail(message);
     //console.log(message)
-    res.send(message)
+    res.send()
 });
 
 app.listen(process.env.PORT || 3000);

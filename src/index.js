@@ -34,8 +34,8 @@ app.post("/send-email", (req, res) => {
     };
 
     config_email.sendMail(message);
-    //console.log(message)
+    console.log(message)
     res.send()
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT);

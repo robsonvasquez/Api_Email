@@ -38,6 +38,4 @@ app.post("/send-email", (req, res) => {
     res.send()
 });
 
-app.listen(3000, () => {
-    //console.log("api executando");
-});
+app.listen(process.env.PORT || 3000);

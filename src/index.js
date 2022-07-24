@@ -18,7 +18,7 @@ const config_email = nodemailer.createTransport({
 
 app.use(body_parser.json());
 
-app.use(cors({origin: process.env.REQUIRE_URL}));
+app.use(cors());
 
 app.post("/send-email", (req, res) => {
 

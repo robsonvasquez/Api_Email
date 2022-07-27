@@ -5,7 +5,7 @@ Este projeto foi desenvolvido para realizar o envio de emails pelo formulário d
 
 #### Foi realizado o deploy do projeto no Heroku.
 
-[https://robsonvasquez.com/](https://api-envia-email.herokuapp.com/)
+https://api-envia-email.herokuapp.com/
 
 ### Tecnologias utilizadas
 

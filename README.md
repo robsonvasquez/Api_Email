@@ -3,9 +3,7 @@
 #### Descrição do projeto
 Este projeto foi desenvolvido para realizar o envio de emails pelo formulário de contato do meu portifólio. 
 
-#### Foi realizado o deploy do projeto no Heroku.
-
-https://api-envia-email.herokuapp.com/
+#### Foi realizado o deploy do projeto no Render.
 
 ### Tecnologias utilizadas
 
